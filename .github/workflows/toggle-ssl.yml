@@ -1,7 +1,7 @@
 name: Toggle SSL in ValkeyCartStore
 
 on:
-  workflow_dispatch:  
+  workflow_dispatch:
 
 jobs:
   update-file:
