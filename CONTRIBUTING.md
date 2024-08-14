@@ -2,16 +2,13 @@
 
 Welcome to OpenTelemetry Demo Webstore repository!
 
-Before you start - see OpenTelemetry general
-[contributing](https://github.com/open-telemetry/community/blob/main/CONTRIBUTING.md)
-requirements and recommendations.
+Before you start, please review the OpenTelemetry general contributing requirements and recommendations.
 
 ## Join a SIG Call
 
-We meet every other week on Wednesday's at 8:00 PT. The meeting is subject to change
-depending on contributors' availability. Check the [OpenTelemetry community
-calendar](https://github.com/open-telemetry/community?tab=readme-ov-file#special-interest-groups)
-for specific dates and Zoom meeting links.
+We meet every other week on Wednesday's at 8:00 PT. The meeting is subject to change depending on contributors' availability. Check the [OpenTelemetry community calendar](https://github.com/open-telemetry/community?tab=readme-ov-file#special-interest-groups) for specific dates and Zoom meeting links.
+
+Meeting notes are available as a public [Google doc](https://docs.google.com/document/d/16f-JOjKzLgWxULRxY8TmpM_FjlI1sthvKurnqFz9x98/edit). For edit access, get in touch on [Slack](https://cloud-native.slack.com/archives/C03B4CWV4DA).
 
 Meeting notes are available as a public [Google
 doc](https://docs.google.com/document/d/16f-JOjKzLgWxULRxY8TmpM_FjlI1sthvKurnqFz9x98/edit).
