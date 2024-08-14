@@ -10,11 +10,6 @@ We meet every other week on Wednesday's at 8:00 PT. The meeting is subject to ch
 
 Meeting notes are available as a public [Google doc](https://docs.google.com/document/d/16f-JOjKzLgWxULRxY8TmpM_FjlI1sthvKurnqFz9x98/edit). For edit access, get in touch on [Slack](https://cloud-native.slack.com/archives/C03B4CWV4DA).
 
-Meeting notes are available as a public [Google
-doc](https://docs.google.com/document/d/16f-JOjKzLgWxULRxY8TmpM_FjlI1sthvKurnqFz9x98/edit).
-For edit access, get in touch on
-[Slack](https://cloud-native.slack.com/archives/C03B4CWV4DA).
-
 ## Sign the CLA
 
 Before you can contribute, you will need to sign the [Contributor License
