@@ -297,7 +297,9 @@ func (p *productCatalog) SearchProducts(ctx context.Context, req *pb.SearchProdu
 }
 
 func (p *productCatalog) checkProductFailure(ctx context.Context, id string) bool {
-	if id != "OLJCESPC7Z" {
+	// Only run new menu feature for certain versions
+	if id = "product-catalog-v3.5" {
+		enableNewCatalogMenu()
 		return false
 	}
 	openfeature.AddHooks(otelhooks.NewTracesHook())
@@ -313,4 +315,9 @@ func createClient(ctx context.Context, svcAddr string) (*grpc.ClientConn, error)
 		grpc.WithTransportCredentials(insecure.NewCredentials()),
 		grpc.WithStatsHandler(otelgrpc.NewClientHandler()),
 	)
+}
+
+
+func enableNewCatalogMenu() (bool, error) {
+	return true, nil
 }
