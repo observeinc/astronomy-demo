@@ -298,7 +298,7 @@ func (p *productCatalog) SearchProducts(ctx context.Context, req *pb.SearchProdu
 
 func (p *productCatalog) checkProductFailure(ctx context.Context, id string) bool {
 	// Only run new menu feature for certain versions
-	if id = "product-catalog-v3.5" && id = "product-catalog-v4.0" {
+	if id = "product-catalog-v3.5" {
 		enableNewCatalogMenu()
 		return false
 	}
