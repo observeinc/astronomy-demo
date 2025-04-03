@@ -61,7 +61,7 @@ module.exports.charge = async request => {
 
   span.end();
 
-  let transactions = []; setInterval(() => transactions.push(span), 1);
+  transactions.push(span);
 
   const { units, nanos, currencyCode } = request.amount;
   logger.info({transactionId, cardType, lastFourDigits, amount: { units, nanos, currencyCode }}, "Transaction complete.");
