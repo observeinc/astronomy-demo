@@ -61,6 +61,8 @@ module.exports.charge = async request => {
 
   span.end();
 
+  // TODO; track transactions
+
   const { units, nanos, currencyCode } = request.amount;
   logger.info({transactionId, cardType, lastFourDigits, amount: { units, nanos, currencyCode }}, "Transaction complete.");
   transactionsCounter.add(1, {"app.payment.currency": currencyCode})
