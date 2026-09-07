@@ -31,7 +31,7 @@ public class ValkeyCartStore : ICartStore
         // Serialize empty cart into byte array.
         var cart = new Oteldemo.Cart();
         _emptyCartBytes = cart.ToByteArray();
-        _connectionString = $"{valkeyAddress},allowAdmin=true,ssl=false,abortConnect=false";
+        _connectionString = $"{valkeyAddress},allowAdmin=true,abortConnect=false";
 
         _redisConnectionOptions = ConfigurationOptions.Parse(_connectionString);
 
